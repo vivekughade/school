@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>New st. Mary School</title>
+    <style>
+        
+        li {display:inline;
+        }
+        #box {background-color:palevioletred;
+        }
+        h1 {
+        text-align:center;
+        color:goldenrod;
+        }
+            h1:hover {
+            color:yellow;}
+        h2 {
+        color:aliceblue;}
+        li {
+        display:block;}
+        #School{
+            color: white;
+            background-color: violet;
+
+        }
+        .nav{
+            color:white;
+        }
+        a:hover{
+            color:darkblue;
+            background-color: black;
+        }
+ 
+    </style>
+           
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body style="background-color:black;">
+    <div class="container-fluid">
+        <div id="box" class="row">
+            <div class="col-lg-1">
+                <img src="images/logos.png" height="50",width="50" class="rounded circle" />
+            </div>
+            <div class="col-lg-5"><h1><i>Nirmala Convent Higher Secondary School</i></h1></div>
+           
+                
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link" href="admission.html"><h2>Admission</h2></a></li>
+                    <li class="nav-item"><a class="nav-link" href="campus.html"><h2>Campus</h2></a> </li>
+                    <li class="nav-item"><a class="nav-link" href="enroll.html"><h2>Enroll</h2></a></li>
+                </ul>
+            </div>
+                
+            
+          
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <img src="images/school1.jpg" class="img-thumbnail" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <p style="color:white;">Click Here to Show and Hide</p>
+                <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#School">About School</button>
+                <div id="School" class="collapse" style="text-align:justify" color:"blue" background-color:"black">OUR SCHOOL
+Nirmala Higher Secondary School Aluva, established in 1962 is owned and managed by the congregation, Sisters of the Destitute (SD Sisters), St.Mary’s Province, Chunangamvely. Nirmala HSS aims at imparting quality education to the budding youngsters of our society by providing value based education that creates confident, competent and morally mature individuals who will always be a credit to the society at large.
+
+                </div>
+         
+            
+                      
+                
+                
+                    <h2>New Student</h2>
+                        <!-- Button to Open the Modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                      Click To register
+                    </button>
+
+  <!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">This is Modal Heading</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+         <h1>Admission Form</h1>
+    <form>
+       <input type="text" name="name" placeholder="Enter full name"/><br/><br/>
+        <input type="email" name="email" value="Email_id" /><br/><br/>
+      <input type="number" name="number" value="mobile_no" /><br/><br/>
+        Select Subject:<select id="Select1">
+         
+            <option>PHP</option>
+            <option>Java</option>
+            <option>Dotnet</option>
+        </select><br />
+        GENDER<input id="Radio1" type="radio" />Male
+            <input id="Radio2" type="radio" />Female<br /><br/>
+        Address:<input type="text" name="address" /><br /><br/>
+        <input type="submit" value="Submit" /><br /><br/>
+        <input  type="submit" value="Cancle" /><br /><br/>
+    </form>
+
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+
+    </div>
+  </div>
+</div>
+               <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+    (function () {
+        var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = 'https://embed.tawk.to/6041b930385de407571cbc7e/1f00bmqbf';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        s0.parentNode.insertBefore(s1, s0);
+    })();
+</script>
+<!--End of Tawk.to Script-->      
+       
+        <div class="col-lg-4 offset-4"><iframe width="727" height="409" src="https://www.youtube.com/embed/-GaLn9UaMDg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+        
+       
+
+</body>
+</html>
